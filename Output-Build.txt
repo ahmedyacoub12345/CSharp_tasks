@@ -1,5 +1,0 @@
-﻿Build started at 10:24 PM...
-1>------ Build started: Project: Cohort4-Task1, Configuration: Debug Any CPU ------
-1>  Cohort4-Task1 -> C:\Users\Orange\Desktop\CSharp_tasks\Cohort4-Task1\Cohort4-Task1\bin\Debug\Cohort4-Task1.exe
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
-========== Build completed at 10:24 PM and took 00.277 seconds ==========
