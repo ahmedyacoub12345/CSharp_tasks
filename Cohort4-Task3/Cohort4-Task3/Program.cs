@@ -24,6 +24,7 @@ namespace Cohort4_Task3
             string[] arr2 = { "str", "alex", "moh" };
 
             string[] arr3 = { "the", "fox", "over", "lazy", "dog" };
+
             //2 - What the index of "Banana","Tomato" ?
             //String[ ]  fruits = ["Tomato", "Banana", "Watermelon"]
 
@@ -32,6 +33,7 @@ namespace Cohort4_Task3
             Console.WriteLine(Array.IndexOf(fruits, "Banana"));
             Console.WriteLine("The index of \"Tomato\" :");
             Console.WriteLine(Array.IndexOf(fruits, "Tomato"));
+            Console.WriteLine("**************");
 
             //3 - Create an multiple arrays that represents your:
             //•	Favorite Food(5 item)
@@ -93,7 +95,7 @@ namespace Cohort4_Task3
             //  **
             // ***
             //****
-
+            string star = "*";
             for (int i = 1; i <= 4; i++)
             {
                 for (int j = 1; j <= 4 - i; j++)
@@ -102,7 +104,8 @@ namespace Cohort4_Task3
                 }
                 for (int k = 1; k <= i; k++)
                 {
-                    Console.Write("*");
+                    Console.Write(star+"");
+                    
                 }
 
                 Console.WriteLine(" ");
