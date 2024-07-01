@@ -20,6 +20,7 @@ namespace Cohort4_Task4
 
         }
 
+        /////////////////////////////////////////////////////////////////////
 
         public static double cube(int number)
         {
@@ -28,6 +29,8 @@ namespace Cohort4_Task4
 
         }
 
+
+        /////////////////////////////////////////////////////////////////////
 
 
         public int[] GreaterYears(int[] year)
@@ -44,6 +47,9 @@ namespace Cohort4_Task4
         }
 
 
+        /////////////////////////////////////////////////////////////////////
+        
+        
         public void YearsInDays(double x)
         {
             Console.WriteLine($"Your age in days = {x * 365}");

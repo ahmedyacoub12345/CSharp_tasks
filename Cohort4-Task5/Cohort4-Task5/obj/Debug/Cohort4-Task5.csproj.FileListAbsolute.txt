@@ -1,0 +1,7 @@
+C:\Users\Orange\Desktop\CSharp_tasks\CSharp_tasks\Cohort4-Task5\Cohort4-Task5\bin\Debug\Cohort4-Task5.exe.config
+C:\Users\Orange\Desktop\CSharp_tasks\CSharp_tasks\Cohort4-Task5\Cohort4-Task5\bin\Debug\Cohort4-Task5.exe
+C:\Users\Orange\Desktop\CSharp_tasks\CSharp_tasks\Cohort4-Task5\Cohort4-Task5\bin\Debug\Cohort4-Task5.pdb
+C:\Users\Orange\Desktop\CSharp_tasks\CSharp_tasks\Cohort4-Task5\Cohort4-Task5\obj\Debug\Cohort4-Task5.csproj.AssemblyReference.cache
+C:\Users\Orange\Desktop\CSharp_tasks\CSharp_tasks\Cohort4-Task5\Cohort4-Task5\obj\Debug\Cohort4-Task5.csproj.CoreCompileInputs.cache
+C:\Users\Orange\Desktop\CSharp_tasks\CSharp_tasks\Cohort4-Task5\Cohort4-Task5\obj\Debug\Cohort4-Task5.exe
+C:\Users\Orange\Desktop\CSharp_tasks\CSharp_tasks\Cohort4-Task5\Cohort4-Task5\obj\Debug\Cohort4-Task5.pdb
