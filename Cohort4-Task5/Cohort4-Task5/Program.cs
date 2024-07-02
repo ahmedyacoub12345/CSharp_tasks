@@ -8,7 +8,7 @@ namespace Cohort4_Task5
 {
     public class Car
     {
-
+        // Short hand : prop + tab to build a proparity ...
         public int Year { get; set; }
         public string Color { get; set; }
         public double Price { get; set; }
@@ -27,11 +27,11 @@ namespace Cohort4_Task5
         
         public void Start()
         {
-            Console.WriteLine("The car engine is on");
+            Console.WriteLine("The Car Engine is ON");
         }
         public void Stop()
         {
-            Console.WriteLine("The car engine is off");
+            Console.WriteLine("The Car Engine is OFF");
         }
 
         public string Display()
@@ -44,6 +44,15 @@ namespace Cohort4_Task5
 
     public class BMW : Car
     {
+        // Note : base is a perant for BMW and i write in the base (arguments of Car ,but without type of value)
+        //Note : internal class : i can use assemply this class in all blocks of code . 
+        //if i have a another class file ,i can't use this class , الا اذا وضعت نوع ال class is a public class . لانه بنيم سبيس مختلف عن النيم سبيس اللي انا فيها مثل ملف ال program.cs .
+        // initial value for string = "" and initial value for int = 0 .
+        // if the class type is seald class i can't inherit the seald class to any another class . 
+        //i use static with method ex : static void print(){Consol.WriteLine("Ahmed Yacoub")} and i can call this function in main like This code : print() ... without call name of class .مثلا بقدر اكتي=ب اي ميثود باي مكان واستدعيه .
+
+
+
         public BMW(int year, string color, double price, string type, string palletNumber, string model) : base(year, color, price, type, palletNumber, model)
         {
 
@@ -63,6 +72,8 @@ namespace Cohort4_Task5
 
             BMW bmw = new BMW(2024, "DarkBlue", 35000, "BMW", "40 - 4142", "X5");
             Console.WriteLine(bmw.Display());
+            bmw.Start();
+            bmw.Stop();
 
         }
     }
